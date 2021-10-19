@@ -175,17 +175,6 @@ Text GLabel 4300 2850 2    60   Input ~ 0
 PC1
 Text GLabel 4300 2950 2    60   Input ~ 0
 PC2
-$Comp
-L Arduino_Nano A1
-U 1 1 616CEBDE
-P 7000 2800
-F 0 "A1" H 7000 2800 60  0000 C CNN
-F 1 "Arduino_Nano" H 7000 2950 60  0000 C CNN
-F 2 "NanoDIP:arduino_nano" H 7000 2800 60  0000 C CNN
-F 3 "" H 7000 2800 60  0000 C CNN
-	1    7000 2800
-	1    0    0    -1  
-$EndComp
 Text GLabel 4300 3350 2    60   Input ~ 0
 RESET
 Text GLabel 6250 2950 0    60   Input ~ 0
@@ -671,4 +660,28 @@ Wire Wire Line
 	6100 2250 6350 2250
 Text Notes 7800 6850 0    60   ~ 0
 Nano With ATMEGA328P-PU
+$Comp
+L Arduino_Nano A1
+U 1 1 616F122D
+P 7000 2800
+F 0 "A1" H 7000 2800 60  0000 C CNN
+F 1 "Arduino_Nano" H 7000 2950 60  0000 C CNN
+F 2 "" H 7000 2800 60  0000 C CNN
+F 3 "" H 7000 2800 60  0000 C CNN
+	1    7000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 616F12FD
+P 7350 4150
+F 0 "#PWR?" H 7350 4000 50  0001 C CNN
+F 1 "+5V" H 7350 4290 50  0000 C CNN
+F 2 "" H 7350 4150 50  0001 C CNN
+F 3 "" H 7350 4150 50  0001 C CNN
+	1    7350 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 4150 7200 4150
 $EndSCHEMATC
