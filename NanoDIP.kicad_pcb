@@ -3,7 +3,7 @@
   (general
     (links 65)
     (no_connects 0)
-    (area 121.844999 76.632999 193.115001 100.659001)
+    (area 120.805 76.632999 193.115001 100.659001)
     (thickness 1.6)
     (drawings 44)
     (tracks 567)
@@ -963,10 +963,10 @@
   (gr_text GND (at 187.8 78.78) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text RX (at 188.08 83.78) (layer F.SilkS)
+  (gr_text RX (at 187.96 81.28) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text TX (at 187.9 81.3) (layer F.SilkS)
+  (gr_text TX (at 187.96 83.82) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
 

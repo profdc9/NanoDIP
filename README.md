@@ -6,4 +6,6 @@ I made a simple PCB that has the Arduino Nano pinout that takes a ATMEGA328P.  I
 
 ADC6 and ADC7 are not available because they are not exposed on the ATMEGA328P.
 
+![x](NanoDIP.jpg)
+
 ![x](NanoDIP.png)
